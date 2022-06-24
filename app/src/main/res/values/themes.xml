@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Splashscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Secondary Item. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor" >@color/white</item>
+        <item name="android:navigationBarColor" >@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Register" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <!-- Secondary Item. -->
+        <item name="android:windowBackground">@color/Color_1</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor">@color/Color_1</item>
+        <item name="android:navigationBarColor">@color/Color_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="User_Profile" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <!-- Secondary Item. -->
+        <item name="android:windowBackground">@color/Color_1</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor">@color/Color_1</item>
+        <item name="android:navigationBarColor">@color/Color_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App latihan</string>
+    <string name="logo_splash">logo_splash</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="gender">GENDER</string>
+    <string name="laki_laki">LAKI-LAKI</string>
+    <string name="perempuan">PEREMPUAN</string>
+    <string name="umur">Umur</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="submit">SUBMIT</string>
+    <string name="kota">Kota</string>
+    <string name="user_profile">USER PROFILE</string>
+    <string name="close_button">close_button</string>
+    <string name="from_registrasi">FROM REGISTRASI</string>
+</resources>

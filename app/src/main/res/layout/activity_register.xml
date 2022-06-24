@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_act">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/from_registrasi"
+            android:textColor="@color/Color_2"
+            android:gravity="center"
+            android:textSize="19sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/nama_lengkap"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/nama_lengkapET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="14sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/email"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/emailET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="14sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/umur"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/umurET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="14sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/pekerjaan"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/pekerjaanET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="14sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/kota"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/filled_exposed"
+                        android:layout_width="match_parent"
+                        android:layout_height="57dp"
+                        android:inputType="none"
+                        tools:ignore="LabelFor" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="21dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/gender"
+                        android:textColor="@color/Color_2"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="7dp"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:id="@+id/radiogroup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/gender_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/laki_laki"
+                                android:textColor="@color/Color_2"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <RadioButton
+                                android:id="@+id/gender_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/perempuan"
+                                android:textColor="@color/Color_2"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textview_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:textColor="@color/Color_2" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview_selected_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Color_2" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/Color_3"
+                android:text="@string/submit"
+                android:textColor="@color/Color_2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
